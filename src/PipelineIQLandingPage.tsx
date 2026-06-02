@@ -609,7 +609,7 @@ export default function PipelineIQLandingPage() {
                 }, 5000);
 
                 // Optional: Send data to webhook without page reload
-                fetch("https://workflow-ayuj.onrender.com/webhook/form", {
+                fetch("https://n8n-workflow-kdd6.onrender.com/webhook/form", {
                   method: "POST",
                   body: formData,
                 }).catch((err) => console.error("Webhook error:", err));
