@@ -170,7 +170,7 @@ function LiveDemo() {
           </p>
 
           <p className="mt-2 md:mt-1 text-gray-300 text-base md:text-lg">
-            Adjust the sliders — watch your lead score update instantly. 
+            Adjust the sliders — watch your lead score update instantly.
           </p>
         </div>
 
@@ -780,6 +780,22 @@ export default function PipelineIQLandingPage() {
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section id="demo-video" className="bg-zinc-950 py-24 border-b border-white/10">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="max-w-3xl mx-auto text-center">
+            <p className="text-sm font-bold uppercase tracking-[0.2em] text-cyan-400">
+              Watch Master Demo
+            </p>
+          </div>
+          <iframe
+            className="mt-6 w-full aspect-video"
+            src="https://www.youtube.com/embed/JBG738FfKxk"
+            title="PipelineIQ Demo"
+            allowFullScreen
+          />
         </div>
       </section>
 
