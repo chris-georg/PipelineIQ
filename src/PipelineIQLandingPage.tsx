@@ -792,7 +792,7 @@ export default function PipelineIQLandingPage() {
           </div>
           <iframe
             className="mt-6 w-full aspect-video"
-            src="https://www.youtube.com/embed/JBG738FfKxk"
+            src="https://player.vimeo.com/video/1198428831"
             title="PipelineIQ Demo"
             allowFullScreen
           />
